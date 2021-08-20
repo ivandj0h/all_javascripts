@@ -5,7 +5,7 @@
  */
 
 var arr = [1, 2, 3, 4, 5, 6, 7];
-var k = 3;
+var k = 2;
 
 function rotateArray(arr, total) {
   if (!arr.length) return arr;
