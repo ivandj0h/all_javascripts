@@ -1,3 +1,3 @@
 ## All Javascript Collections
 
-This is my Javascript Collection Codes
+This are my Javascript Collection Codes, hopefully it would be useful
