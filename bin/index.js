@@ -2,8 +2,7 @@
 
 "use strict";
 
-import { staticWelcomeScreenValueTitle } from "../modules/welcome_function.js";
-// import { LoadingBar } from "../modules/helpers.js";
+import { staticWelcomeScreenValueTitle } from "../modules/welcome.js";
 
-const run = () => staticWelcomeScreenValueTitle();
+const run = () => staticWelcomeScreenValueTitle.getWelcome();
 run();

@@ -5,7 +5,12 @@
   "main": "bin/index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,7 +29,10 @@
   },
   "homepage": "https://github.com/ivandi1980/all_javascripts#readme",
   "devDependencies": {
-    "jest": "^27.0.6"
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "jest-console": "^0.1.0"
   },
   "dependencies": {
     "chalk": "^4.1.2",
