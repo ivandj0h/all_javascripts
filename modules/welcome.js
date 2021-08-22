@@ -1,10 +1,20 @@
 "use strict";
 
-// import packages
+import figlet from "figlet";
+import chalk from "chalk";
 
 const staticWelcomeScreenValueTitle = {
   getWelcome: () => {
-    console.log("Selamat Datang di JS Collections CLI Tools");
+    return `Selamat Datang di JS Collections CLI Tools`;
+  },
+
+  getLogo: () => {
+    return chalk.whiteBright(
+      figlet.textSync("JS Collections", {
+        horizontalLayout: "default",
+        verticalLayout: "default",
+      })
+    );
   },
 };
 

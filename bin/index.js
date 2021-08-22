@@ -2,7 +2,6 @@
 
 "use strict";
 
-import { staticWelcomeScreenValueTitle } from "../modules/welcome.js";
+import { init } from "../modules/index.js";
 
-const run = () => staticWelcomeScreenValueTitle.getWelcome();
-run();
+init();
