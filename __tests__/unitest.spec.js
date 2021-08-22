@@ -6,7 +6,7 @@ describe("welcome function", () => {
   // Test Welcome Loading
   test("testing console.log in static welcome screen", () => {
     expect(staticWelcomeScreenValueTitle.getWelcome()).toBe(
-      "Selamat Datang di JS Collections CLI Tools"
+      "\u00A0 Please wait..."
     );
   });
 

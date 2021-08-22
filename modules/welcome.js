@@ -5,7 +5,7 @@ import chalk from "chalk";
 
 const staticWelcomeScreenValueTitle = {
   getWelcome: () => {
-    return `Selamat Datang di JS Collections CLI Tools`;
+    return `\u00A0 Please wait...`;
   },
 
   getLogo: () => {
