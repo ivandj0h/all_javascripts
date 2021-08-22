@@ -21,7 +21,7 @@ const staticWelcomeScreenValueTitle = () => {
 const staticWelcomeScreenValueLogo = () => {
   console.log(
     chalk.whiteBright(
-      figlet.textSync("Javascript Collections", {
+      figlet.textSync("JS Collections", {
         horizontalLayout: "default",
         verticalLayout: "default",
       })
