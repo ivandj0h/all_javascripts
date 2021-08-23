@@ -1,16 +1,9 @@
 // The Fibonacci Sequence
 
-const generateFibonecciNumber = (targetNum) => {
-  var seqOne = 0;
-  var seqTwo = 1;
+function generateFibonecciNumber(targetNum) {
+  for (var fibonacci = [0, 1], i = 1; i < targetNum; i++)
+    fibonacci.push(fibonacci[i] + fibonacci[i - 1]);
+  return fibonacci;
+}
 
-  for (let i = 3; i <= targetNum; i++) {
-    seqThree = seqOne + seqTwo;
-    seqOne = seqTwo;
-    seqTwo = seqThree;
-
-    console.log(seqThree);
-  }
-};
-
-generateFibonecciNumber(14);
+console.log(generateFibonecciNumber(10));
